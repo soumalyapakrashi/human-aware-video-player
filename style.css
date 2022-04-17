@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    /* height: 100vh; */
+    background-color: black;
+}
+
+.webcam-feed {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(31, 31, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+h4 {
+    color: rgb(176, 176, 176);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+#video-link {
+    width: 100%;
+    height: 45px;
+    border-radius: 50px;
+    display: block;
+    margin-top: 20px;
+    border: none;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 0px 15px;
+}
+
+button {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 8px 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(216, 216, 216);
+}
+
+#video-link:focus {
+    outline: none;
+    border-radius: 10px;
+}
