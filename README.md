@@ -4,7 +4,7 @@
 
 This website accepts a YouTube video link from user and plays that video. In the process of playing the video, it continuously detects whether a human is present in the front of the computer (webcam) or not. If a human is not present, it automatically pauses the video and when a human again comes into view, it automatically starts playing the video.
 
-Please enter a link of a standalone video from Youtube. Please do not give links of entire playlists or individual videos from playlists. The program may behave unexpectedly if such incorrect links are provided.
+Please enter a link of a standalone video from Youtube. Please do not give links of entire playlists or individual videos from playlists. The program may behave unexpectedly if such incorrect links are provided. Also, sometimes some videos just does not work. Maybe for some licensing issue or some other issue that YouTube does not allow to play those videos in any website other than YouTube itself.
 
 Webcam access in required for this program to run. The webcam stream is not sent to any server and all processing is done entirely on the client device.
 
